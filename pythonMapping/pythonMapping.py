@@ -18,3 +18,9 @@ print(capitalised)
 celsius = [0, 15, 72, -4, 20]
 fahrenheit = list(map(lambda x: (9/5) * x + 32, celsius))
 print(fahrenheit)
+
+#check odd or even 
+numbers2 = [1,3,4,5,7]
+print(numbers2)
+evenOdd = list(map(lambda x: "Even" if x % 2 == 0 else "odd", numbers2))
+print(evenOdd)
