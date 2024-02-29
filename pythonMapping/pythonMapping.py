@@ -14,3 +14,7 @@ names = ["steve", "ken", "jim", "stan", "mike", "bob", "frank"]
 capitalised = list(map(str.capitalize, names))
 print(capitalised)
 
+#celsius to Fahrenheit 
+celsius = [0, 15, 72, -4, 20]
+fahrenheit = list(map(lambda x: (9/5) * x + 32, celsius))
+print(fahrenheit)
