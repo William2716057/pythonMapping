@@ -8,3 +8,9 @@ print(squared)
 words = ["foot", "house","grass", "smoke", "fish", "lamp", "elephant", "telephone"]
 lengths = list(map(len, words))
 print(lengths)
+
+#capitalise
+names = ["steve", "ken", "jim", "stan", "mike", "bob", "frank"]
+capitalised = list(map(str.capitalize, names))
+print(capitalised)
+
